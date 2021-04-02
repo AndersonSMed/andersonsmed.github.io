@@ -10,49 +10,66 @@
     <title>Anderson Medeiros</title>
   </head>
   <body>
-    <header>
-      <div class="banner-container">
+    <header class="header">
+      <div class="banner">
         <img
           src="images/banner.jpg"
-          alt="people working on laptops"
-          class="banner"
+          alt="People working over a table"
+          class="banner__image"
         >
       </div>
-      <div class="image-container">
-        <img src="images/user-image.jpeg" alt="developer's face">
+      <div class="profile">
+        <img src="images/user-image.jpeg" class="profile__image" alt="profile image">
       </div>
     </header>
-    <main>
-      <h2 class="name">
+    <main class="user-info">
+      <h2 class="user-info__name">
         Anderson Medeiros
-        <span class="subtitle">
-          Agile | JS | Python | React | Vue | Flask | Django
+        <span class="user-info__skills">
+          Agile | JS | Python | React.js | Vue.js | Flask | Django
         </span>
       </h2>
     </main>
-    <footer>
-      <ul class="social-medias">
-        <li>
-          <a href="https://www.linkedin.com/in/anderson-medeiros-ab4b7b14a/" target="_blank">
-            <span class="iconify" data-icon="ion-social-linkedin-outline" data-inline="false"></span>
-          </a>
-        </li>
-        <li>
-          <a href="http://github.com/andersonSMed/" target="_blank">
-            <span class="iconify" data-icon="ion-social-github-outline" data-inline="false"></span>
-          </a>
-        </li>
-        <li>
-          <a href="https://wa.me/5584987809837" target="_blank">
-            <span class="iconify" data-icon="ion-social-whatsapp-outline" data-inline="false"></span>
-          </a>
-        </li>
-        <li>
-          <a href="mailto:anderson.santos.medeiros@hotmail.com">
-            <span class="iconify" data-icon="clarity:email-line" data-inline="false"></span>
-          </a>
-        </li>
-      </ul>
+    <footer class="navigation">
+      <nav>
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a
+              href="https://www.linkedin.com/in/anderson-medeiros-ab4b7b14a/"
+              target="_blank"
+              class="navigation__link"
+            >
+              <span class="iconify" data-icon="ion-social-linkedin-outline" data-inline="false"></span>
+            </a>
+          </li>
+          <li class="navigation__item">
+            <a
+              href="http://github.com/andersonSMed/"
+              target="_blank"
+              class="navigation__link"
+            >
+              <span class="iconify" data-icon="ion-social-github-outline" data-inline="false"></span>
+            </a>
+          </li>
+          <li class="navigation__item">
+            <a
+              href="https://wa.me/5584987809837"
+              target="_blank"
+              class="navigation__link"
+            >
+              <span class="iconify" data-icon="ion-social-whatsapp-outline" data-inline="false"></span>
+            </a>
+          </li>
+          <li class="navigation__item">
+            <a
+              href="mailto:anderson.santos.medeiros@hotmail.com"
+              class="navigation__link"
+            >
+              <span class="iconify" data-icon="clarity:email-line" data-inline="false"></span>
+            </a>
+          </li>
+        </ul>
+      </nav>
     </footer>
   </body>
 </html>
