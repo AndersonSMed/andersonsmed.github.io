@@ -2,10 +2,13 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta name="description" content="Anderson Medeiros personal page.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js" defer></script>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="preload" as="style" href="styles/reset.css">
     <link rel="stylesheet" href="styles/reset.css">
+    <link rel="preload" as="style" href="styles/main.css">
     <link rel="stylesheet" href="styles/main.css">
     <title>Anderson Medeiros</title>
   </head>
@@ -16,10 +19,18 @@
           src="images/banner.jpg"
           alt="People working over a table"
           class="banner__image"
+          height="960"
+          width="1440"
         >
       </div>
       <div class="profile">
-        <img src="images/user-image.jpeg" class="profile__image" alt="profile image">
+        <img
+          src="images/user-image.jpeg"
+          class="profile__image"
+          alt="Profile image"
+          height="200"
+          width="200"
+        >
       </div>
     </header>
     <main class="user-info">
@@ -35,37 +46,55 @@
         <ul class="navigation__list">
           <li class="navigation__item">
             <a
+              href="https://blog.andersonmedeiros.net/"
+              target="_blank"
+              rel="noreferrer"
+              class="navigation__link"
+              title="Hashnode Blog"
+            >
+              <span class="iconify" data-icon="simple-icons:hashnode" data-inline="false"></span>
+            </a>
+          </li>
+          <li class="navigation__item">
+            <a
               href="https://www.linkedin.com/in/anderson-medeiros-ab4b7b14a/"
               target="_blank"
+              rel="noreferrer"
               class="navigation__link"
+              title="Linkedin"
             >
-              <span class="iconify" data-icon="ion-social-linkedin-outline" data-inline="false"></span>
+              <span class="iconify" data-icon="akar-icons:linkedin-fill" data-inline="false"></span>
             </a>
           </li>
           <li class="navigation__item">
             <a
               href="http://github.com/andersonSMed/"
               target="_blank"
+              rel="noreferrer"
               class="navigation__link"
+              title="Github"
             >
-              <span class="iconify" data-icon="ion-social-github-outline" data-inline="false"></span>
+              <span class="iconify" data-icon="akar-icons:github-fill" data-inline="false"></span>
             </a>
           </li>
           <li class="navigation__item">
             <a
               href="https://wa.me/5584987809837"
               target="_blank"
+              rel="noreferrer"
               class="navigation__link"
+              title="Whatsapp"
             >
-              <span class="iconify" data-icon="ion-social-whatsapp-outline" data-inline="false"></span>
+              <span class="iconify" data-icon="whh:whatsapp" data-inline="false"></span>
             </a>
           </li>
           <li class="navigation__item">
             <a
               href="mailto:anderson.santos.medeiros@hotmail.com"
               class="navigation__link"
+              title="E-mail"
             >
-              <span class="iconify" data-icon="clarity:email-line" data-inline="false"></span>
+              <span class="iconify" data-icon="clarity:email-solid" data-inline="false"></span>
             </a>
           </li>
         </ul>
